@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phones Mart</title>
+    <!-- site icon -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png">
+
+    <!-- file import -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/phone-tab.css">
+
+</head>
+
+<body>
+    <!-- main section -->
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Mobile-Smartphone-icon.png" alt="...">
+                <h3>
+                    <a href="#">PhoneSmart</a>
+                </h3>
+            </div>
+
+            <!-- navbar -->
+            <nav class="navbar">
+                <a class="navbar-toggle" href="#" onclick="toggleNavbar()">☰</a>
+                <ul class="navbar-nav" id="navbar-links">
+                    <li>
+                        <a href="#">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#">PHONES</a>
+                    </li>
+                    <li>
+                        <a href="#">CART</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <!-- circle & phone name -->
+        <div class="main-cont">
+
+            <!-- circle -->
+            <div class="circle">
+
+                <div class="phone">
+                    <img src="https://icon2.cleanpng.com/20180325/rhw/kisspng-iphone-4-iphone-8-plus-iphone-5-iphone-x-iphone-apple-5ab72c725c8cd3.9515278215219539063791.jpg" alt="...">
+                </div>
+
+            </div>
+
+            <!-- phone name -->
+            <div class="phone-name">
+                <button class="btn one" onclick="previousClickButton()">
+                    Previous devices
+                </button>
+
+                <a href="#" class="devices_name">
+                    <h1 id="devices">
+                        Devices
+                    </h1>
+                </a>
+
+                <button class="btn two" onclick="nextClickButton()">
+                    Next devices
+                </button>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- js file import -->
+    <script src="../js/app.js"></script>
+    <!-- click function file -->
+    <script src="../js/func.js"></script>
+
+</body>
+
+</html>

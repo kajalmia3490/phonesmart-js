@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* main section */
+main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9940B0, #8AB7F7);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px 0 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+}
+
+h3 a {
+    font-size: 35px;
+    color: white;
+}
+
+/* navbar section */
+.navbar {
+    overflow: hidden;
+    color: white;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 24px;
+    margin: 0;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.navbar-nav li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar-nav li a:hover {
+    color: gainsboro;
+}
+
+/* circle */
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 50px 200px 0 100px;
+    position: relative;
+}
+
+.phone img {
+    width: 110px;
+    margin: 45px 200px 0 100px;
+    position: absolute;
+    animation: phone 5s linear infinite;
+}
+
+@keyframes phone {
+    0% {
+        width: 0px;
+        margin: 45px 200px 0 100px;
+    }
+    50% {
+        width: 110px;
+        margin: 45px 200px 0 100px;
+    }
+}
+
+/* main cont */
+.main-cont {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 30px;
+}
+
+#devices {
+    width: 300px;
+    color: white;
+    padding: 10px 0 10px 0;
+    border: 3px solid gainsboro;
+    border-right: none;
+    border-left: none;
+    padding: 20px 40px 20px 40px;
+}
+
+.phone-name {
+    text-align: center;
+}
+
+#devices:hover {
+    color: purple;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.one {
+    margin-bottom: 10px;
+}
+
+.two {
+    margin-top: 10px;
+}
+
+.one:active {
+    background-color: tomato;
+}
+
+.two:active {
+    background-color: tomato;
+}
